@@ -9,7 +9,7 @@ const firebaseConfig = {
     storageBucket: "inventory-6a3cc.appspot.com",
     messagingSenderId: "170335063983",
     appId: "1:170335063983:web:7e78687c647ebc570e695a",
-};
+}; 
 const app = initializeApp(firebaseConfig);
 const firestore = getFirestore(app);
 export { firestore };
